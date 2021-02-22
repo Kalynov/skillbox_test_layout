@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1170px
+}
+
+header {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.header-right {
+    display:flex;
+    align-items: center;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.number {
+    font-size: 22px;
+    color: #666666;
+    font-weight: bold;
+    font-family: "Muller Bold";
+}
+
+.profile {
+    font-size: 16px;
+    line-height: 32px;
+    color: #cc9933;
+    font-family: "Font Awesome";
+    text-decoration: none;
+}
+
+nav {
+    height: 70px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.navigation {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    font-size: 16px;
+    color: #333333;
+    font-family: "Muller Regular";
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.search {
+    flex: 2;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 30px 0 60px;
+    
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.search::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    right: 0;
+    margin-right: 5px;
+    position: relative;
+    background: url("../images/search.svg") no-repeat 100%;
+}
+
+.bookig {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-form {
+    flex:9;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form input {
+    height: 70px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    outline: none;
+    margin: 15px 0;
+    padding: 20px;
+}
+
+.booking-form input:first-child{
+    margin: 0 0 15px;
+}
+
+.submit{
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.yelow {
+    color: #cc9933;
+}
+
+.booking-form .submit input{
+    width: 159px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #cc9933;
+    margin: 0 30px 0 0;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+
+h1 {
+    line-height: 32px;
+    color: #333333;
+    font-family: "Muller Regular";
+    margin-left: 40px;
+}
+
+.booking-offer {
+    flex:11;
+}
+
+.about{
+    margin-top: 50px;
+    width: 894px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+    font-family: "Muller Regular";
+}
+
+.about p {
+    padding: 0 40px;
+}
