@@ -1,0 +1,19 @@
+{
+  "name": "skillbox_test_layout",
+  "version": "1.0.0",
+  "description": "test for skillbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalynov/skillbox_test_layout.git"
+  },
+  "author": "Kalynov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalynov/skillbox_test_layout/issues"
+  },
+  "homepage": "https://github.com/Kalynov/skillbox_test_layout#readme"
+}
